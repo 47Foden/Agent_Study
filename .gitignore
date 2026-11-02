@@ -1,0 +1,26 @@
+# Local credentials and secrets (all directories)
+.env
+.env.*
+!.env.template
+!.env.sample
+!.env.example
+.env.example
+secrets.toml
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+# Local environments, caches, private profiles and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+profile.json
+outputs/
+knowledge_base/
+models/
