@@ -1,0 +1,18 @@
+.env
+.venv/
+__pycache__/
+outputs/
+*.zip
+profile.json
+.streamlit/secrets.toml
+
+# 이전 버전에 실제 키를 넣은 파일도 Git에서 제외
+.env.example
+
+knowledge_base/
+training/
+evaluation/
+dataset/
+datasets/
+데이터셋/
+models/
